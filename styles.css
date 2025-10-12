@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-  top:0px;
+  top:0%;
   position: fixed;
   display: flex;
   width:100%;
@@ -24,7 +24,6 @@ body {
   justify-content: space-between;
   background-color: white;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
-  z-index:10;
 }
 
 .logo {
@@ -53,7 +52,7 @@ body {
   border-bottom: 4px solid #3d6eff;
 }
 
-.hero,.about {
+.hero,.about,.skills{
   height:85vh;
   display: flex;
   justify-content: space-between;
@@ -106,8 +105,30 @@ body {
   margin:40px;
 }
 
-.about h1{
+.about h1,.skills h1{
   display: inline-block;
   border-bottom: 4px solid #3d6eff;
   margin-bottom:20px;
+}
+.profiles{
+  display: flex;
+  justify-content: center;
+}
+.profiles>button{
+  display: flex;
+  border:2px solid #111 ;
+  align-items: center;
+  padding:5px 20px;
+  border-radius: 1000px;
+  background: #3d6eff;
+}
+.profiles>button h4{
+  color:white;
+  font-family: 'Segoe UI', sans-serif;
+  width: 90%;
+  padding: 0px 5px;
+}
+.profiles>button img{
+  height:20px;
+  width: 20px;
 }
