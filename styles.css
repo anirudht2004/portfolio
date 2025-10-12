@@ -37,7 +37,7 @@ body {
 }
 
 .nav-links li a {
-    font-size:18px;
+  font-size:15px;
   text-decoration: none;
   color: #111;
   font-weight: 500;
@@ -47,7 +47,7 @@ body {
   border-bottom: 4px solid #3d6eff;
 }
 
-.hero {
+.hero,.about {
   height:90vh;
   display: flex;
   justify-content: space-between;
