@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f5f8ff;
@@ -41,6 +45,8 @@ body {
   text-decoration: none;
   color: #111;
   font-weight: 500;
+  padding-bottom: 5px;
+
 }
 
 .nav-links li a.active {
@@ -48,14 +54,14 @@ body {
 }
 
 .hero,.about {
-  height:90vh;
+  height:85vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 100px;
   background-color: #ffffff;
   border-radius: 20px;
-  margin: 80px 40px 40px 40px;
+  margin: 65px 40px 0px 40px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
 
@@ -89,9 +95,19 @@ body {
   height:30px;
 }
 
-
 .hero-img img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+.about{
+  flex-direction: column;
+  margin:40px;
+}
+
+.about h1{
+  display: inline-block;
+  border-bottom: 4px solid #3d6eff;
+  margin-bottom:20px;
 }
