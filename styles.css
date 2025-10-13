@@ -114,8 +114,8 @@ body {
 .about,.skills{
   flex-direction: column;
   margin:40px;
+  align-items: start;
 }
-
 .about h1,.skills h1{
   display: inline-block;
   border-bottom: 4px solid #3d6eff;
