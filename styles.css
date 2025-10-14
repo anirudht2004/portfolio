@@ -62,10 +62,11 @@ body {
 .nav-links li a.active {
   border-bottom: 4px solid #3d6eff;
 }
-
-.hero,.about,.skills{
+.hero{
+  display:flex;
+}
+.hero,.about,.skills,.contact{
   height:85vh;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 100px;
@@ -116,10 +117,48 @@ body {
   margin:40px;
   align-items: start;
 }
-.about h1,.skills h1{
+.about h1,.skills h1,.contact h1{
   display: inline-block;
   border-bottom: 4px solid #3d6eff;
   margin-bottom:20px;
+}
+.desc{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  grid-column-gap:20px;
+  grid-row-gap:50px;
+}
+.desc p{
+  grid-column:1/span 1;
+  line-height:30px;
+}
+.desc .links{
+  grid-column:2/span 1;
+}
+.links{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.links button{
+  height:50px;
+  width:400px;
+  background:#3063fbba;
+  border:2px solid black;
+  display: flex;
+  color:white;
+  align-items:center;
+  font-size:16px;
+  border-radius:10px;
+}
+.links button img{
+  height:40px;
+  width:40px;
+  box-sizing: content-box;
+  padding:0px 10px;
+}
+.desc .profiles{
+  grid-column:1/span 2;
 }
 .profiles{
   display: flex;
