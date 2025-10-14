@@ -45,11 +45,11 @@ body {
   color: #111;
   font-weight: 500;
   padding-bottom: 5px;
-
 }
 
 #res{
-  font-size:12px;
+  font-size:14px;
+  height:32px;
   display: flex;
   align-items:center;
   background:#3d6eff;
