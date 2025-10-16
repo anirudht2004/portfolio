@@ -52,7 +52,7 @@ body {
 #res{
   font-size:14px;
   height:32px;
-  width:70px;
+  width:90px;
   display: flex;
   align-items:center;
   justify-content:center;
@@ -201,4 +201,15 @@ footer{
   background: #111;
   color: white;
   margin-top:10px;
+  display: flex;
+  align-items: center;
+}
+footer img{
+  height:20px;
+  width:20px;
+  margin:0px 10px;
+}
+footer p{
+  border-right:2px solid white;
+  padding:0px 10px;
 }
