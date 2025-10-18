@@ -281,7 +281,7 @@ form button{
 .data{
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap:20px;
   font-size:18px;
 }
 .data i{
