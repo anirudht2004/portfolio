@@ -141,6 +141,7 @@ body {
   grid-row-gap:50px;
 }
 .desc p{
+  text-align: justify;
   grid-column:1/span 1;
   line-height:30px;
 }
